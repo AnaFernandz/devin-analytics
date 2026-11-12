@@ -12,3 +12,5 @@ Test data for the Norma dependency checks test plan (QSA-2616). Do not run `npm 
 | @qc-internal/private-utils 1.0.0 | DEP-09 | Private package, covered by an Approved packages policy |
 | @aws-sdk/client-s3 3.1166.0 | DEP-06 | Published 2026-11-10 (inside a 7-day minimum age) |
 | @aws-sdk/client-sts 3.1150.0 | DEP-07 | Published 2026-10-12 (older than 7 days) |
+
+DEP-11 probe: this PR changes only this file.
