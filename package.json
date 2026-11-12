@@ -1,0 +1,19 @@
+{
+  "name": "devin-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QSA-2616 dependency-check fixtures. Do not npm install.",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "reqeusts-oauth-helper": "1.0.0",
+    "express": "9.9.9",
+    "lodash": "4.17.15",
+    "ms": "^2.0.0",
+    "@devin-analytics/ui": "1.0.0",
+    "@qc-internal/private-utils": "1.0.0",
+    "@aws-sdk/client-s3": "3.1166.0",
+    "@aws-sdk/client-sts": "3.1150.0"
+  }
+}
